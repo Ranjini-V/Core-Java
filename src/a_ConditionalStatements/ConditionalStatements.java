@@ -1,4 +1,4 @@
-package ConditionalStatements;
+package a_ConditionalStatements;
 
 public class ConditionalStatements {
 
