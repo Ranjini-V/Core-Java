@@ -1,6 +1,6 @@
 package c_Arrays;
 
-public class TwoDimensional_Array {
+public class b_TwoDimensional_Array {
 
 	public static void main(String[] args) {
 

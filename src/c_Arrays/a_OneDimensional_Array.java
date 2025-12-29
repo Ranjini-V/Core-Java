@@ -1,6 +1,6 @@
 package c_Arrays;
 
-public class OneDimensional_Array {
+public class a_OneDimensional_Array {
 
 	public static void main(String[] args) {
 
