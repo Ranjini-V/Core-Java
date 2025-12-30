@@ -1,5 +1,7 @@
 package c_Arrays;
 
+import java.util.Arrays;
+
 public class c_ArraysExamples {
 
 	public static void main(String[] args) {
@@ -62,6 +64,41 @@ public class c_ArraysExamples {
 				System.out.println("Prime numbers from the array are: " + y);
 			}
 		}
+
+//		----------------------------------------------------
+//		SORT ELEMENTS (ASCENDING) USING FOR LOOP
+		int d[] = { 50, 20, 40, 10, 100 };
+
+		for (int i = 0; i < (d.length) - 1; i++) {
+			for (int j = 0; j < d.length - 1 - i; j++) {
+				if (d[j] > d[j + 1]) {
+
+					int temp = d[j];
+					d[j] = d[j + 1];
+					d[j + 1] = temp;
+
+				}
+			}
+		}
+
+		System.out.println("Sorted array is: " + Arrays.toString(d));
+
+//		----------------------------------------------------
+//		FIND THE MISSING NUMBER FROM THE ARRAY
+
+		int e[] = { 1, 4, 5, 3 };
+
+		int n = e.length + 1;
+
+		int expectedSum = n * (n + 1) / 2;
+		int actualSum = 0;
+
+		for (int i : e) {
+			actualSum = actualSum + i;
+		}
+
+		int missingNumber = expectedSum - actualSum;
+		System.out.println("Missing number from the array: " + Arrays.toString(e) + " is " + missingNumber);
 
 	}
 
