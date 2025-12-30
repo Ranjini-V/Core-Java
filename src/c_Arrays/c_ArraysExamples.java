@@ -30,15 +30,38 @@ public class c_ArraysExamples {
 		int odd_sum = 0;
 		int even_sum = 0;
 
-		for (int i : a) {
+		for (int i : b) {
 			if (i % 2 == 0) {
-				even_sum = even_sum + a[i];
+				even_sum = even_sum + i;
 			} else {
-				odd_sum = odd_sum + a[i];
+				odd_sum = odd_sum + i;
 			}
 		}
 		System.out.println("Odd Sum: " + odd_sum);
 		System.out.println("Even Sum: " + even_sum);
+
+//		----------------------------------------------------
+//		PRIME NUMBER - Prints prime numbers from the array
+		int c[] = { 1, 5, 7, 9, 0, 234, 245, 6, 7, 234, 7, 6, 4, 7674, 4585, 237, 11, 1234 };
+
+		for (int y : c) {
+
+			if (y <= 1) {
+				continue;
+			}
+
+			boolean isPrime = true;
+			for (int i = 2; i <= Math.sqrt(y); i++) {
+				if (y % i == 0) {
+					isPrime = false;
+					break;
+				}
+			}
+
+			if (isPrime) {
+				System.out.println("Prime numbers from the array are: " + y);
+			}
+		}
 
 	}
 
