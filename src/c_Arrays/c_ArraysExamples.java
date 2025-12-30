@@ -100,6 +100,31 @@ public class c_ArraysExamples {
 		int missingNumber = expectedSum - actualSum;
 		System.out.println("Missing number from the array: " + Arrays.toString(e) + " is " + missingNumber);
 
+//		----------------------------------------------------
+//		FIND THE LARGEST NUMBER IN THE ARRAY
+
+		int f[] = { 7483, 9034, 05, 783, 34788844 };
+		int largest_num = f[0];
+
+		for (int i = 1; i < (f.length); i++) {
+			if (f[i] > largest_num) {
+				largest_num = f[i];
+			}
+		}
+		System.out.println("The largest number in the array " + Arrays.toString(f) + " is " + largest_num);
+
+//		----------------------------------------------------
+//		FIND THE SMALLEST NUMBER IN THE ARRAY
+
+		int smallest_num = f[0];
+
+		for (int i = 1; i < (f.length); i++) {
+			if (f[i] < smallest_num) {
+				smallest_num = f[i];
+			}
+		}
+		System.out.println("The smallest number in the array " + Arrays.toString(f) + " is " + smallest_num);
+
 	}
 
 }
