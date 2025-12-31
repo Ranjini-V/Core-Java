@@ -1,5 +1,7 @@
 package d_Strings;
 
+import java.util.Arrays;
+
 public class a_StringMethods {
 
 	public static void main(String[] args) {
@@ -47,6 +49,30 @@ public class a_StringMethods {
 		System.out.println(sequal1 == sequal2);
 		System.out.println(sequal1.equals(sequal2));
 		System.out.println(sequal1.equalsIgnoreCase(sequal2));
+		System.out.println();
+
+//		STRING REPLACE
+		String replaceString = "Hello World! Java is awesome.";
+		System.out.println("Replaced l with L: " + replaceString.replace("l", "L"));
+		System.out.println("Replaced World: " + (replaceString.replace("World", "GLOBE")).replace("GLOBE", "MAP"));
+		System.out.println();
+
+//		STRING - EXTRACT SUBSTRING
+		String fullString = "Lorem ipsum dolor sit amet, consectetuer";
+		System.out.println("SUBSTRING: " + fullString.substring(0, 3));
+		System.out.println("SUBSTRING at index 7: " + fullString.substring(7, 8));
+		System.out.println();
+
+//		STRING CASE CONVERSION
+		String lowerCaseString = "Lorem ipsum dolor sit amet, consectetuer";
+		System.out.println("Converting to Upper Case: " + lowerCaseString.toUpperCase());
+		System.out.println("Converting to Lower Case: " + lowerCaseString.toLowerCase());
+		System.out.println();
+
+//		STRING SPLIT
+		String splitString = "abc@official.com";
+		String a[] = splitString.split("@");
+		System.out.println("Split at @: " + Arrays.toString(a));
 
 	}
 
