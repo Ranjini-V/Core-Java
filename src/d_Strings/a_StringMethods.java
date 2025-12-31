@@ -56,6 +56,9 @@ public class a_StringMethods {
 		System.out.println("Replaced l with L: " + replaceString.replace("l", "L"));
 		System.out.println("Replaced World: " + (replaceString.replace("World", "GLOBE")).replace("GLOBE", "MAP"));
 		System.out.println();
+		String amount = "$15,20,55"; // exp - 152055
+		String removeCommaAndDollar = (amount.replace("$", "")).replace(",", "");
+		System.out.println("REMOVING $ and Comma: " + removeCommaAndDollar);
 
 //		STRING - EXTRACT SUBSTRING
 		String fullString = "Lorem ipsum dolor sit amet, consectetuer";
