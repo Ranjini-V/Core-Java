@@ -25,6 +25,28 @@ public class a_StringMethods {
 		String trimString = "    LOREM IPSUM DOLOR    ";
 		System.out.println("LENGTH OF THE STRING: " + trimString + "BEFORE TRIM IS " + trimString.length());
 		System.out.println("LENGTH OF THE STRING: " + trimString + "AFTER TRIM IS " + (trimString.trim()).length());
+		System.out.println();
+
+//		STRING charAT 
+		String charAtString = " LOREM IPSUM DOLOR   ";
+		System.out.println("THE CHAR AT INDEX 0 is: " + "'" + charAtString.charAt(0) + "'");
+//		Java does NOT support negative indexing
+//		System.out.println("THE CHAR AT INDEX -3 is: " + "'" + charAtString.charAt(-3) + "'"); //Throws 'java.lang.StringIndexOutOfBoundsException'
+		System.out.println();
+
+//		STRING CONTAINS
+		String stringContains = " LOREM IPSUM DOLOR   ";
+		System.out.println(stringContains + "contains the string?: " + stringContains.contains("LOR"));
+		System.out.println(stringContains + "contains the string?: " + stringContains.contains("SIT"));
+		System.out.println(stringContains + "contains the string?: " + stringContains.contains("  "));
+		System.out.println();
+
+//		STRING EQUALS, EQUALS_IGNORE_CASE
+		String sequal1 = "!@#$%^&*WERTYfh";
+		String sequal2 = "!@#$%^&*wERTYfh";
+		System.out.println(sequal1 == sequal2);
+		System.out.println(sequal1.equals(sequal2));
+		System.out.println(sequal1.equalsIgnoreCase(sequal2));
 
 	}
 
