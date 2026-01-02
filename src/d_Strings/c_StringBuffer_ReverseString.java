@@ -8,7 +8,11 @@ public class c_StringBuffer_ReverseString {
 		System.out.println("String before reverse: " + s);
 		StringBuffer builder_reverse = s.reverse();
 		System.out.println("String after reverse using String Buffer: " + builder_reverse);
+		
+	
+		
+		
 
-	}
+	} 
 
 }
