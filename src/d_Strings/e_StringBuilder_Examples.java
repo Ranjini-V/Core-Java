@@ -13,8 +13,28 @@ public class e_StringBuilder_Examples {
 		System.out.println("After Append: " + sb);
 
 //		STRING INSERT
-		sb.insert(0, "Inserted ");
+		sb.insert(0, " Inserted ");
 		System.out.println("After Insert: " + sb);
+
+//		STRING REPEAT
+		sb.repeat("Ipsum", 10);
+		System.out.println("After repeat: " + sb);
+
+//		STRING REPLACE
+		sb.replace(0, 78, "REPLACED");
+		System.out.println("After Replace: " + sb);
+
+//		CHARACTER DELETE
+		sb.deleteCharAt(7);
+		System.out.println("After delete: " + sb);
+
+//		STRING REPLACE
+		sb.reverse();
+		System.out.println("After reverse: " + sb);
+
+//		CHARACTER REPLACE
+		sb.setCharAt(0, 'F');
+		System.out.println("After character replace: " + sb);
 
 	}
 
