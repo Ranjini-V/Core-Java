@@ -7,13 +7,13 @@ public class g_StringBuilder_ThreadExample {
 		StringBuilder sb = new StringBuilder("A");
 
 		Thread t1 = new Thread(() -> {
-			for (int i = 0; i <= 100; i++) {
+			for (int i = 0; i <= 50; i++) {
 				sb.insert(0, "I");
 			}
 		});
 
 		Thread t2 = new Thread(() -> {
-			for (int i = 0; i <= 300; i++) {
+			for (int i = 0; i <= 50; i++) {
 				sb.insert(0, "H");
 			}
 		});
