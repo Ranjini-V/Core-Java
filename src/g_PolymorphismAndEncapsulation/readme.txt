@@ -3,6 +3,10 @@
  - METHOD OVERLOADING - Having multiple methods with the same name in the same class, but with different parameter lists.
  - This is applicable for methods and constructors
  
+    
+    Primary Use of Method Overloading
+	- To improve code readability and usability by performing the same operation with different inputs.
+ 
  - Rules for overloading a method
  	 - Method name should be the same
  	 - Number of parameters should be different
