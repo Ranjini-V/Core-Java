@@ -1,10 +1,10 @@
 package g_PolymorphismAndEncapsulation;
 
-public class b_AdderMain {
+public class b_MethodOverloading_AdderMain {
 
 	public static void main(String[] args) {
 		
-		a_Adder adder = new a_Adder();
+		a_MethodOverloading_Adder adder = new a_MethodOverloading_Adder();
 		
 		adder.sum();
 		adder.sum(1, 123);

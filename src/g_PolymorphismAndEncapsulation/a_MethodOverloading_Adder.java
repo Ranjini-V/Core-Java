@@ -1,6 +1,6 @@
 package g_PolymorphismAndEncapsulation;
 
-public class a_Adder {
+public class a_MethodOverloading_Adder {
 
 	int a = 10, b = 30;
 
