@@ -18,7 +18,7 @@ public class d_StudentMain {
 //		
 //		
 ////	2. USING METHOD
-//		std2.setStudentData(2, "John", 'F');
+//		std2.setStud0000000000000000000entData(2, "John", 'F');
 //		std2.printStudentData();
 //		System.out.println();
 //		
