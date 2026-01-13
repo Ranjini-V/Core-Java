@@ -14,6 +14,16 @@ public class d_ConstructorOverloading_BoxMain {
 		c_ConstructorOverloading_Box box2 = new c_ConstructorOverloading_Box(10,20,30);
 		System.out.println("Prameterized Constructor Overloaded: ");
 		System.out.println(box2.volume());
+		System.out.println();
+		
+		
+		c_ConstructorOverloading_Box box3 = new c_ConstructorOverloading_Box(5-10);
+		System.out.println("Prameterized Constructor [1 param] Overloaded: ");
+		System.out.println(box3.volume());
+		System.out.println();
+
+		
+		
 
 	}
 
