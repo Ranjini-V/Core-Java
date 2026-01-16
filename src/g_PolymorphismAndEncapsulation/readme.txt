@@ -17,5 +17,18 @@
  	 - Return type is NOT considered
  	 
  	 
+  - ENCAPSULATION
+  - Encapsulation is the process of wrapping data (variables) and methods together into a single unit and controlling access to the data using access modifiers.
+  - In Java, this is achieved using:
+		- private variables
+		- public getter and setter methods
+		
+  - Why Encapsulation is Needed
+		- Protects data from unauthorized access
+		- Prevents accidental modification
+		- Improves maintainability
+		- Enables data validation
+ 	 
+ 	 
  	 
  	 
