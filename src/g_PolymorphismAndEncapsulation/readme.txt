@@ -22,13 +22,14 @@
   - In Java, this is achieved using:
 		- private variables
 		- public getter and setter methods
+		- variables can be accessed/operated only through methods (getters and setters)
 		
   - Why Encapsulation is Needed
 		- Protects data from unauthorized access
 		- Prevents accidental modification
 		- Improves maintainability
 		- Enables data validation
- 	 
+ 	  
  	 
  	 
  	 
