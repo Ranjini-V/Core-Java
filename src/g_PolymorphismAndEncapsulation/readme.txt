@@ -16,6 +16,8 @@
  	 - Method signature = method name + parameters
  	 - Return type is NOT considered
  	 
+ - MAIN METHOD can be overloaded and the same rules as above applies when overloading the main method
+ 	 
  	 
   - ENCAPSULATION
   - Encapsulation is the process of wrapping data (variables) and methods together into a single unit and controlling access to the data using access modifiers.
