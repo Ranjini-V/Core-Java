@@ -9,6 +9,12 @@ public class f_Encapsulation_AccountMain {
 		account.setAccountNumber(101);
 		System.out.println(account.getAccountNumber());
 		
+		account.setName("Joshua");
+		System.out.println(account.getName());
+		
+		account.setAmount(1084098843);
+		System.out.println(account.getAmount());
+		
 
 	}
 
