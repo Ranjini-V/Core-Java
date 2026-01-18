@@ -38,4 +38,4 @@ static Keyword
 	- Static methods cannot access non-static members directly
 	- Static block runs once, before main()
 	- Only nested classes can be static
-	- Commonly used for utility methods & constants
+	- Commonly used for utility methods & constants (variables)
