@@ -12,3 +12,30 @@
 		-Used to pass or return the current object
 		-Cannot be used in static context
 		-this() must be the first statement in a constructor
+		
+		
+static Keyword
+
+	- static means class-level, not object-level
+	- Only one copy exists in memory
+	- Shared by all objects of the class
+	- Access using ClassName.member
+	- Loaded when the class is loaded
+	- main() is static so JVM can call it without object
+	- Static methods cannot use this or super
+	- Static methods cannot access non-static members directly
+	- Static block runs once, before main()
+	- Only nested classes can be static
+	- Commonly used for utility methods & constants
+	
+	Memory Behavior
+	- Only one copy exists in memory
+	- Shared by all objects of the class
+	- Access using ClassName.member
+	- Loaded when the class is loaded
+	- main() is static so JVM can call it without object
+	- Static methods cannot use this or super
+	- Static methods cannot access non-static members directly
+	- Static block runs once, before main()
+	- Only nested classes can be static
+	- Commonly used for utility methods & constants
