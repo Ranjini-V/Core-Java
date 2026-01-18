@@ -10,8 +10,8 @@ public class ThisKeyword {
 	}
 
 	ThisKeyword() {
-//		this.x=1;
-//		this.y=2;
+		this.x=1;
+		this.y=2;
 	}
 
 	void setData(int a, int b) {
@@ -25,6 +25,7 @@ public class ThisKeyword {
 	}
 
 	public static void main(String[] args) {
+		
 
 		ThisKeyword th = new ThisKeyword(100, 200);
 		th.display();
