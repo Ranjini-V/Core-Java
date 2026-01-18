@@ -39,3 +39,10 @@ static Keyword
 	- Static block runs once, before main()
 	- Only nested classes can be static
 	- Commonly used for utility methods & constants (variables)
+	
+	
+	NOTE:
+	
+	- Non-static methods can access everything directly (static/ non-static methods/variables)
+	- Static methods can access static methods and variables directly but need object creation to access non-static methods and keywords
+	
