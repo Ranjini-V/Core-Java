@@ -12,7 +12,7 @@ public class g_MainMethod_Overloading {
 	}
 
 	public String main(String subject, String department) {
-		return subject + " " + department;
+		return (subject + " " + department);
 	}
 
 	public static void main(String[] args) {

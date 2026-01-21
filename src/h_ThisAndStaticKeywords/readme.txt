@@ -43,6 +43,6 @@ static Keyword
 	
 	NOTE:
 	
-	- Non-static methods can access everything directly (static/ non-static methods/variables)
-	- Static methods can access static methods and variables directly but need object creation to access non-static methods and keywords
+	- Non-static methods can access everything directly (static/ non-static methods/variables) from the same class
+	- Static methods can access static methods and variables directly but need object creation to access non-static methods and keywords from the same class
 	

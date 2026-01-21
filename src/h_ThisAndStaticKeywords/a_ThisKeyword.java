@@ -1,15 +1,15 @@
 package h_ThisAndStaticKeywords;
 
-public class ThisKeyword {
+public class a_ThisKeyword {
 
 	int x, y; // class/instance variables
 
-	ThisKeyword(int x, int y) {
+	a_ThisKeyword(int x, int y) {
 		this.x = x;
 		this.y = y;
 	}
 
-	ThisKeyword() {
+	a_ThisKeyword() {
 		this.x=1;
 		this.y=2;
 	}
@@ -27,10 +27,10 @@ public class ThisKeyword {
 	public static void main(String[] args) {
 		
 
-		ThisKeyword th = new ThisKeyword(100, 200);
+		a_ThisKeyword th = new a_ThisKeyword(100, 200);
 		th.display();
 
-		ThisKeyword th2 = new ThisKeyword();
+		a_ThisKeyword th2 = new a_ThisKeyword();
 		th2.setData(1, 2);
 		th2.display();
 
