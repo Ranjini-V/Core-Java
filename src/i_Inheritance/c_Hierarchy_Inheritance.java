@@ -31,6 +31,7 @@ public class c_Hierarchy_Inheritance {
 		H3 h3 = new H3();
 		h3.show(1000);
 		h3.print(10020);
+	
 
 	}
 
