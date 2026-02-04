@@ -16,6 +16,14 @@ public class a_SwapTwoNumbers {
 //		System.out.println("After Swapping: a - " + a + ", b - " + b);
 		
 		
+		// Using - and +
+		a=a+b; //a=30
+		b=a-b; //b=10
+		a=a-b; //a=20
+		System.out.println("After Swapping: a - " + a + ", b - " + b);
+		
+		
+
 		
 		
 
