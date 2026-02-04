@@ -8,4 +8,4 @@ INTERFACE
 - Interface supports the functionality of multiple inheritance
 - We can define interface with interface keyword
 - A class extends another class, an interface extends another interface but a class implements an interface
-- We can create Object reference for interface but we cannot instantiate interface
+- We can create Object reference for interface but we cannot instantiate interface [ we create an object of the class that has implemented the interface and the type of the object will be of the parent interface]
