@@ -13,18 +13,21 @@ public class a_SwapTwoNumbers {
 //		int t = a;
 //		b = a;
 //		t = b;
-//		System.out.println("After Swapping: a - " + a + ", b - " + b);
-		
-		
-		// Using - and +
-		a=a+b; //a=30
-		b=a-b; //b=10
-		a=a-b; //a=20
-		System.out.println("After Swapping: a - " + a + ", b - " + b);
-		
-		
 
+//
+//		// Using - and +
+//		a = a + b; // a=30
+//		b = a - b; // b=10
+//		a = a - b; // a=20
+//		
+		// Using * and /
+		a = a * b; // a=200
+		b = a / b; // b=10
+		a = a / b; // a=20
 		
+		
+		System.out.println("After Swapping: a - " + a + ", b - " + b);
+
 		
 
 	}
